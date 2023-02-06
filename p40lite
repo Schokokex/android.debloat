@@ -1,22 +1,31 @@
-pm uninstall com.huawei.audioaccessorymanager
-pm uninstall --user 0 com.huawei.audioaccessorymanager
-pm uninstall com.huawei.behaviorauth
-pm uninstall --user 0 com.huawei.behaviorauth
-pm uninstall com.huawei.fastapp
-pm uninstall --user 0 com.huawei.fastapp
-pm uninstall com.huawei.hitouch
-pm uninstall --user 0 com.huawei.hitouch
-pm uninstall com.huawei.hwdetectrepair
-pm uninstall --user 0 com.huawei.hwdetectrepair
-pm uninstall com.huawei.scanner
-pm uninstall --user 0 com.huawei.scanner
-pm uninstall com.huawei.search
-pm uninstall --user 0 com.huawei.search 
-pm uninstall com.huawei.gameassistant
-pm uninstall --user 0 com.huawei.gameassistant
-pm uninstall com.android.mediacenter
+
 pm uninstall --user 0 com.android.mediacenter
-pm uninstall com.huawei.systemmanager
-pm uninstall --user 0 com.huawei.systemmanager
-pm uninstall com.huawei.intelligent
+pm uninstall --user 0 com.huawei.android.thememanager
+pm uninstall --user 0 com.huawei.audioaccessorymanager
+pm uninstall --user 0 com.huawei.behaviorauth
+pm uninstall --user 0 com.huawei.fastapp
+pm uninstall --user 0 com.huawei.gameassistant
+pm uninstall --user 0 com.huawei.hidisk
+pm uninstall --user 0 com.huawei.himovie.overseas
+pm uninstall --user 0 com.huawei.hitouch
+pm uninstall --user 0 com.huawei.hwdetectrepair
 pm uninstall --user 0 com.huawei.intelligent
+pm uninstall --user 0 com.huawei.phoneservice
+pm uninstall --user 0 com.huawei.scanner
+pm uninstall --user 0 com.huawei.search 
+pm uninstall --user 0 com.huawei.systemmanager
+pm uninstall com.android.mediacenter
+pm uninstall com.huawei.android.thememanager
+pm uninstall com.huawei.audioaccessorymanager
+pm uninstall com.huawei.behaviorauth
+pm uninstall com.huawei.fastapp
+pm uninstall com.huawei.gameassistant
+pm uninstall com.huawei.hidisk
+pm uninstall com.huawei.himovie.overseas
+pm uninstall com.huawei.hitouch
+pm uninstall com.huawei.hwdetectrepair
+pm uninstall com.huawei.intelligent
+pm uninstall com.huawei.phoneservice
+pm uninstall com.huawei.scanner
+pm uninstall com.huawei.search
+pm uninstall com.huawei.systemmanager
