@@ -47,7 +47,8 @@ com.snapchat.android
 
 
 # (keeping)
-# com.huawei.HwMultiScreenShot
+# com.huawei.HwMultiScreenShot # rolling screenshots
+# com.huawei.magazine # rolling backgrounds
 #
 # i found actually useful
 #
