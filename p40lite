@@ -29,3 +29,28 @@ pm uninstall com.huawei.phoneservice
 pm uninstall com.huawei.scanner
 pm uninstall com.huawei.search
 pm uninstall com.huawei.systemmanager
+
+pm uninstall com.microsoft.translator
+pm uninstall com.microsoft.office.officehubrow
+pm uninstall com.microsoft.bingintl
+pm uninstall com.snapchat.android
+pm uninstall --user 0 com.microsoft.translator
+pm uninstall --user 0 com.microsoft.office.officehubrow
+pm uninstall --user 0 com.microsoft.bingintl
+pm uninstall --user 0 com.snapchat.android
+
+pm uninstall com.huawei.health
+pm uninstall --user 0 com.huawei.health
+
+pm uninstall com.huawei.email
+pm uninstall --user 0 com.huawei.email
+pm uninstall com.huawei.meetime
+pm uninstall --user 0 com.huawei.meetime
+pm uninstall com.huawei.tips
+pm uninstall --user 0 com.huawei.tips
+pm uninstall com.huawei.gamebox
+pm uninstal --user 0 com.huawei.gamebox
+pm uninstall com.huawei.compass
+pm uninstal --user 0 com.huawei.compass
+pm uninstall com.huawei.mirror
+pm uninstal --user 0 com.huawei.mirror
