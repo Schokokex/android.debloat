@@ -1,61 +1,75 @@
 toremove="
-com.huawei.welinknow
-com.huawei.videoeditor
-com.huawei.tipsove
-com.huawei.tips
-com.huawei.systemmanager
-com.huawei.search
-com.huawei.scanner
-com.huawei.phoneservice
-com.huawei.omacp
-com.huawei.ohos.inputmethod
-com.huawei.ohos.hiwindow
-com.huawei.notepad
-com.huawei.mycenter
-com.huawei.mirror
-com.huawei.meetime
-com.huawei.maps.app
-com.huawei.localBackup
-com.huawei.intelligent
-com.huawei.hwsearch
-com.huawei.hwread.dz
-com.huawei.hwdetectrepair
-com.huawei.hms5gkit.agentservice
-com.huawei.hitouch
-com.huawei.himovie.overseas
-com.huawei.hifolder
-com.huawei.hidisk
-com.huawei.hicloud
-com.huawei.hiassistantoversea
-com.huawei.health
-com.huawei.gamebox
-com.huawei.gameassistant
-com.huawei.game.kitserver
-com.huawei.fastapp
-com.huawei.email
-com.huawei.contactscamcard
-com.huawei.contacts.sync
-com.huawei.compass
-com.huawei.calculator
-com.huawei.browser
-com.huawei.behaviorauth
-com.huawei.audioaccessorymanager
-com.huawei.android.totemweather
-com.huawei.android.thememanager
-com.hicloud.android.clone
-com.android.storagemanager
-com.android.soundrecorder
-com.android.simappdialog
-com.android.mediacenter
-com.android.localtransport
 com.android.dreams.basic
+com.android.localtransport
+com.android.mediacenter
+com.android.simappdialog
+com.android.soundrecorder
+com.android.storagemanager
+com.hicloud.android.clone
+com.huawei.android.totemweather
+com.huawei.browser
+com.huawei.calculator
+com.huawei.compass
+com.huawei.contacts.sync
+com.huawei.contactscamcard
+com.huawei.email
+com.huawei.fastapp
+com.huawei.game.kitserver
+com.huawei.gameassistant
+com.huawei.gamebox
+com.huawei.health
+com.huawei.hiassistantoversea
+com.huawei.hidisk
+com.huawei.himovie.overseas
+com.huawei.hms5gkit.agentservice
+com.huawei.hwread.dz
+com.huawei.hwsearch
+com.huawei.localBackup
+com.huawei.maps.app
+com.huawei.meetime
+com.huawei.mirror
+com.huawei.mycenter
+com.huawei.notepad
+com.huawei.ohos.inputmethod
+com.huawei.omacp
+com.huawei.phoneservice
+com.huawei.scanner
+com.huawei.tips
+com.huawei.tipsove
+com.huawei.videoeditor
+com.huawei.welinknow
+com.microsoft.bingintl
+com.microsoft.office.officehubrow
+com.microsoft.translator
+com.snapchat.android
 "
+# com.huawei.HwMultiScreenShot
+#
+# i found actually useful
+#
+#
+# com.huawei.android.hwupgradeguide
+# com.huawei.android.thememanager
+# com.huawei.audioaccessorymanager
+# com.huawei.behaviorauth
+# com.huawei.hicloud
+# com.huawei.hifolder
+# com.huawei.hitouch
+# com.huawei.hwdetectrepair
+# com.huawei.intelligent
+# com.huawei.ohos.hiwindow
+# com.huawei.search
+# com.huawei.systemmanager
+#
+# are getting reinstalled by work profile
 
 pm list packages -3 | sed 's/package:/pm uninstall --user 0 /g' | sh
 
 for i in $toremove
 do
-echo REMOVING $i
+echo -e "\e[1;31m removing package: $i \e[0m"
+printf "System: "
 pm uninstall $i
+printf "User 0: "
 pm uninstall --user 0 $i
 done
