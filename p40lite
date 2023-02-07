@@ -55,9 +55,11 @@ com.android.localtransport
 com.android.dreams.basic
 "
 
+pm list packages -3 | sed 's/package:/pm uninstall --user 0 /g' | sh
 
 for i in $toremove
 do
+echo REMOVING $i
 pm uninstall $i
 pm uninstall --user 0 $i
 done
