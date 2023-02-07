@@ -72,7 +72,7 @@ com.snapchat.android
 #
 # also bloating recommended apps on launcher but reinstalled by work profile
 
-
+echo -e "\e[1;31m removing all third party apps: \e[0m"
 pm list packages -3 | sed 's/package:/pm uninstall --user 0 /g' | sh
 
 for i in $toremove
