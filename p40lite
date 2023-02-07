@@ -10,6 +10,7 @@ pm uninstall com.huawei.systemmanager
 pm uninstall com.huawei.search
 pm uninstall com.huawei.scanner
 pm uninstall com.huawei.phoneservice
+pm uninstall com.huawei.omacp
 pm uninstall com.huawei.ohos.inputmethod
 pm uninstall com.huawei.ohos.hiwindow
 pm uninstall com.huawei.notepad
@@ -25,7 +26,10 @@ pm uninstall com.huawei.hwdetectrepair
 pm uninstall com.huawei.hms5gkit.agentservice
 pm uninstall com.huawei.hitouch
 pm uninstall com.huawei.himovie.overseas
+pm uninstall com.huawei.hifolder
 pm uninstall com.huawei.hidisk
+pm uninstall com.huawei.hicloud
+pm uninstall com.huawei.hiassistantoversea
 pm uninstall com.huawei.health
 pm uninstall com.huawei.gamebox
 pm uninstall com.huawei.gameassistant
@@ -60,6 +64,7 @@ pm uninstall --user 0 com.huawei.systemmanager
 pm uninstall --user 0 com.huawei.search 
 pm uninstall --user 0 com.huawei.scanner
 pm uninstall --user 0 com.huawei.phoneservice
+pm uninstall --user 0 com.huawei.omacp
 pm uninstall --user 0 com.huawei.ohos.inputmethod
 pm uninstall --user 0 com.huawei.ohos.hiwindow
 pm uninstall --user 0 com.huawei.notepad
@@ -75,7 +80,10 @@ pm uninstall --user 0 com.huawei.hwdetectrepair
 pm uninstall --user 0 com.huawei.hms5gkit.agentservice
 pm uninstall --user 0 com.huawei.hitouch
 pm uninstall --user 0 com.huawei.himovie.overseas
+pm uninstall --user 0 com.huawei.hifolder
 pm uninstall --user 0 com.huawei.hidisk
+pm uninstall --user 0 com.huawei.hicloud
+pm uninstall --user 0 com.huawei.hiassistantoversea
 pm uninstall --user 0 com.huawei.health
 pm uninstall --user 0 com.huawei.gamebox
 pm uninstall --user 0 com.huawei.gameassistant
