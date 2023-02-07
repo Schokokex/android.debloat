@@ -43,6 +43,8 @@ com.microsoft.office.officehubrow
 com.microsoft.translator
 com.snapchat.android
 "
+
+
 # com.huawei.HwMultiScreenShot
 #
 # i found actually useful
@@ -62,6 +64,7 @@ com.snapchat.android
 # com.huawei.systemmanager
 #
 # are getting reinstalled by work profile
+
 
 pm list packages -3 | sed 's/package:/pm uninstall --user 0 /g' | sh
 
