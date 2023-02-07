@@ -46,6 +46,7 @@ com.snapchat.android
 "
 
 
+# (keeping)
 # com.huawei.HwMultiScreenShot
 #
 # i found actually useful
@@ -64,9 +65,10 @@ com.snapchat.android
 # com.huawei.systemmanager
 #
 # are getting reinstalled by work profile
-#
-#
-# com.huawei.hifolder 
+
+
+# (uninstalling)
+# com.huawei.hifolder
 #
 # also bloating recommended apps on launcher but reinstalled by work profile
 
