@@ -1,76 +1,102 @@
-
-pm uninstall --user 0 com.android.mediacenter
-pm uninstall --user 0 com.huawei.android.thememanager
-pm uninstall --user 0 com.huawei.audioaccessorymanager
-pm uninstall --user 0 com.huawei.behaviorauth
-pm uninstall --user 0 com.huawei.fastapp
-pm uninstall --user 0 com.huawei.gameassistant
-pm uninstall --user 0 com.huawei.hidisk
-pm uninstall --user 0 com.huawei.himovie.overseas
-pm uninstall --user 0 com.huawei.hitouch
-pm uninstall --user 0 com.huawei.hwdetectrepair
-pm uninstall --user 0 com.huawei.intelligent
-pm uninstall --user 0 com.huawei.phoneservice
-pm uninstall --user 0 com.huawei.scanner
-pm uninstall --user 0 com.huawei.search 
-pm uninstall --user 0 com.huawei.systemmanager
-pm uninstall com.android.mediacenter
-pm uninstall com.huawei.android.thememanager
-pm uninstall com.huawei.audioaccessorymanager
-pm uninstall com.huawei.behaviorauth
-pm uninstall com.huawei.fastapp
-pm uninstall com.huawei.gameassistant
-pm uninstall com.huawei.hidisk
-pm uninstall com.huawei.himovie.overseas
-pm uninstall com.huawei.hitouch
-pm uninstall com.huawei.hwdetectrepair
-pm uninstall com.huawei.intelligent
-pm uninstall com.huawei.phoneservice
-pm uninstall com.huawei.scanner
-pm uninstall com.huawei.search
-pm uninstall com.huawei.systemmanager
-
+pm uninstall com.snapchat.android
 pm uninstall com.microsoft.translator
 pm uninstall com.microsoft.office.officehubrow
 pm uninstall com.microsoft.bingintl
-pm uninstall com.snapchat.android
+pm uninstall com.huawei.welinknow
+pm uninstall com.huawei.videoeditor
+pm uninstall com.huawei.tipsove
+pm uninstall com.huawei.tips
+pm uninstall com.huawei.systemmanager
+pm uninstall com.huawei.search
+pm uninstall com.huawei.scanner
+pm uninstall com.huawei.phoneservice
+pm uninstall com.huawei.ohos.inputmethod
+pm uninstall com.huawei.ohos.hiwindow
+pm uninstall com.huawei.notepad
+pm uninstall com.huawei.mycenter
+pm uninstall com.huawei.mirror
+pm uninstall com.huawei.meetime
+pm uninstall com.huawei.maps.app
+pm uninstall com.huawei.localBackup
+pm uninstall com.huawei.intelligent
+pm uninstall com.huawei.hwsearch
+pm uninstall com.huawei.hwread.dz
+pm uninstall com.huawei.hwdetectrepair
+pm uninstall com.huawei.hms5gkit.agentservice
+pm uninstall com.huawei.hitouch
+pm uninstall com.huawei.himovie.overseas
+pm uninstall com.huawei.hidisk
+pm uninstall com.huawei.health
+pm uninstall com.huawei.gamebox
+pm uninstall com.huawei.gameassistant
+pm uninstall com.huawei.game.kitserver
+pm uninstall com.huawei.fastapp
+pm uninstall com.huawei.email
+pm uninstall com.huawei.contactscamcard
+pm uninstall com.huawei.contacts.sync
+pm uninstall com.huawei.compass
+pm uninstall com.huawei.calculator
+pm uninstall com.huawei.browser
+pm uninstall com.huawei.behaviorauth
+pm uninstall com.huawei.audioaccessorymanager
+pm uninstall com.huawei.android.totemweather
+pm uninstall com.huawei.android.thememanager
+pm uninstall com.hicloud.android.clone
+pm uninstall com.android.storagemanager
+pm uninstall com.android.soundrecorder
+pm uninstall com.android.simappdialog
+pm uninstall com.android.mediacenter
+pm uninstall com.android.localtransport
+pm uninstall com.android.dreams.basic
+pm uninstall --user 0 com.snapchat.android
 pm uninstall --user 0 com.microsoft.translator
 pm uninstall --user 0 com.microsoft.office.officehubrow
 pm uninstall --user 0 com.microsoft.bingintl
-pm uninstall --user 0 com.snapchat.android
-
-pm uninstall com.huawei.health
-pm uninstall --user 0 com.huawei.health
-
-pm uninstall com.huawei.email
-pm uninstall --user 0 com.huawei.email
-pm uninstall com.huawei.meetime
-pm uninstall --user 0 com.huawei.meetime
-pm uninstall com.huawei.tips
+pm uninstall --user 0 com.huawei.welinknow
+pm uninstall --user 0 com.huawei.videoeditor
+pm uninstall --user 0 com.huawei.tipsove
 pm uninstall --user 0 com.huawei.tips
-pm uninstall com.huawei.gamebox
-pm uninstal --user 0 com.huawei.gamebox
-pm uninstall com.huawei.compass
-pm uninstal --user 0 com.huawei.compass
-pm uninstall com.huawei.mirror
-pm uninstal --user 0 com.huawei.mirror
-
-pm uninstall com.huawei.browser
-pm uninstal --user 0 com.huawei.browser
-
-pm uninstall com.huawei.maps.app
-pm uninstal --user 0 com.huawei.maps.app
-
-pm uninstall com.huawei.notepad
-pm uninstal --user 0 com.huawei.notepad
-
-pm uninstall com.huawei.welinknow
-pm uninstal --user 0 com.huawei.welinknow
-
-pm uninstall com.huawei.mirror
-pm uninstal --user 0 com.huawei.mirror
-
-
-
+pm uninstall --user 0 com.huawei.systemmanager
+pm uninstall --user 0 com.huawei.search 
+pm uninstall --user 0 com.huawei.scanner
+pm uninstall --user 0 com.huawei.phoneservice
+pm uninstall --user 0 com.huawei.ohos.inputmethod
+pm uninstall --user 0 com.huawei.ohos.hiwindow
+pm uninstall --user 0 com.huawei.notepad
+pm uninstall --user 0 com.huawei.mycenter
+pm uninstall --user 0 com.huawei.mirror
+pm uninstall --user 0 com.huawei.meetime
+pm uninstall --user 0 com.huawei.maps.app
+pm uninstall --user 0 com.huawei.localBackup
+pm uninstall --user 0 com.huawei.intelligent
+pm uninstall --user 0 com.huawei.hwsearch
+pm uninstall --user 0 com.huawei.hwread.dz
+pm uninstall --user 0 com.huawei.hwdetectrepair
+pm uninstall --user 0 com.huawei.hms5gkit.agentservice
+pm uninstall --user 0 com.huawei.hitouch
+pm uninstall --user 0 com.huawei.himovie.overseas
+pm uninstall --user 0 com.huawei.hidisk
+pm uninstall --user 0 com.huawei.health
+pm uninstall --user 0 com.huawei.gamebox
+pm uninstall --user 0 com.huawei.gameassistant
+pm uninstall --user 0 com.huawei.game.kitserver
+pm uninstall --user 0 com.huawei.fastapp
+pm uninstall --user 0 com.huawei.email
+pm uninstall --user 0 com.huawei.contactscamcard
+pm uninstall --user 0 com.huawei.contacts.sync
+pm uninstall --user 0 com.huawei.compass
+pm uninstall --user 0 com.huawei.calculator
+pm uninstall --user 0 com.huawei.browser
+pm uninstall --user 0 com.huawei.behaviorauth
+pm uninstall --user 0 com.huawei.audioaccessorymanager
+pm uninstall --user 0 com.huawei.android.totemweather
+pm uninstall --user 0 com.huawei.android.thememanager
+pm uninstall --user 0 com.hicloud.android.clone
+pm uninstall --user 0 com.android.storagemanager
+pm uninstall --user 0 com.android.soundrecorder
+pm uninstall --user 0 com.android.simappdialog
+pm uninstall --user 0 com.android.mediacenter
+pm uninstall --user 0 com.android.localtransport
+pm uninstall --user 0 com.android.dreams.basic
 
 pm list packages -f | grep /hw_product/
