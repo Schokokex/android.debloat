@@ -54,3 +54,23 @@ pm uninstall com.huawei.compass
 pm uninstal --user 0 com.huawei.compass
 pm uninstall com.huawei.mirror
 pm uninstal --user 0 com.huawei.mirror
+
+pm uninstall com.huawei.browser
+pm uninstal --user 0 com.huawei.browser
+
+pm uninstall com.huawei.maps.app
+pm uninstal --user 0 com.huawei.maps.app
+
+pm uninstall com.huawei.notepad
+pm uninstal --user 0 com.huawei.notepad
+
+pm uninstall com.huawei.welinknow
+pm uninstal --user 0 com.huawei.welinknow
+
+pm uninstall com.huawei.mirror
+pm uninstal --user 0 com.huawei.mirror
+
+
+
+
+pm list packages -f | grep /hw_product/
