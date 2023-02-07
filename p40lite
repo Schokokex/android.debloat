@@ -20,6 +20,7 @@ com.huawei.gamebox
 com.huawei.health
 com.huawei.hiassistantoversea
 com.huawei.hidisk
+com.huawei.hifolder
 com.huawei.himovie.overseas
 com.huawei.hms5gkit.agentservice
 com.huawei.hwread.dz
@@ -55,7 +56,6 @@ com.snapchat.android
 # com.huawei.audioaccessorymanager
 # com.huawei.behaviorauth
 # com.huawei.hicloud
-# com.huawei.hifolder
 # com.huawei.hitouch
 # com.huawei.hwdetectrepair
 # com.huawei.intelligent
@@ -64,6 +64,11 @@ com.snapchat.android
 # com.huawei.systemmanager
 #
 # are getting reinstalled by work profile
+#
+#
+# com.huawei.hifolder 
+#
+# also bloating recommended apps on launcher but reinstalled by work profile
 
 
 pm list packages -3 | sed 's/package:/pm uninstall --user 0 /g' | sh
